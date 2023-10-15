@@ -1,10 +1,21 @@
-import './App.css';
+import "./App.css";
+import { FC } from "react";
+import { Route, Routes } from "react-router-dom";
+import Header from "./components/header/Header";
+import HomePage from "./components/HomePage/HomePage";
+import Shop from "./components/Shop/Shop";
 
-function App() {
+
+const App: FC = () => {
   return (
-    <div className="App">
-      <h1>Fstore</h1>
-    </div>
+    <>
+      <Header />
+
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/catalog" element={<Shop />} />
+      </Routes>
+    </>
   );
 }
 

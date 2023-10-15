@@ -1,0 +1,86 @@
+ul {
+    list-style-type: none;
+}
+
+.container {
+    width: 1180px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 240px;
+    overflow: auto;
+    padding-right: 10px;
+}
+
+.header {
+    margin: 0px;
+    line-height: 25px;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    height: 3px;
+    background-color: #C5D3A7;
+    margin-bottom: 60px;
+}
+
+.cardList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.card {
+    background-color: #C5D3A7;
+    width: 300px;
+    height: 235px;
+    margin-bottom: 130px;
+    padding-bottom: 35px;
+    padding-top: 50px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #99AF96;
+    line-height: 25px;
+    font-size: 35px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.cardText{
+    margin: 0px;
+    text-align: center;
+}
+
+.cardImg {
+    height: 128px;
+    width: 128px;
+}
+
+.backBtn {
+    width: 74px;
+    height: 80px;
+    padding-left: 6px;
+    background-color: #C5D3A7;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.backImg1 {
+    width: 20px;
+    height: 20px;
+}
+
+.backImg2 {
+    width: 40px;
+    height: 40px;
+}

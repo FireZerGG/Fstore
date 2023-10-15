@@ -1,0 +1,18 @@
+.container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    height: 110px;
+    width: 100%;
+    background-color: #C5D3A7;
+    box-shadow: 0px 5px 10px #99AF96;
+}
+
+.logo {
+    margin-top: 20px;
+}

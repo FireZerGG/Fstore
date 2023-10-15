@@ -1,0 +1,63 @@
+.homePage {
+    height: 100vh;
+    background-image: url('../../pictures/HomePageBackground.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.header {
+    margin: 0px;
+    line-height: 80px;
+    font-size: 60px;
+    font-weight: 700;
+    width: 750px;
+
+}
+
+.container {
+    padding-top: 227px;
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.description {
+    margin-top: 50px;
+    line-height: 25px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.card1, .card2 {
+    background-color: #C5D3A7;
+    width: 520px;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 40px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+    box-shadow: 5px 5px 10px #99AF96;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.card1 {
+    height: 130px;
+    line-height: 130px;
+    margin-top: 60px;
+}
+
+.card2 {
+    height: 190px;
+    line-height: 190px;
+    margin-top: 20px;
+}
+
+.cardImage {
+    width: 80px;
+    height: 80px;
+}
